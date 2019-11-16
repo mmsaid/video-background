@@ -1,0 +1,32 @@
+#myVideo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
